@@ -32,6 +32,7 @@ void setup() {
   }
   delay(15000);
   WiFi.mode(WIFI_STA);
+  Serial.println("Test");
 
   IPAddress ip(192, 168, 137, 181); // where xx is the desired IP Address
   IPAddress gateway(192, 168, 137, 1); // set gateway to match your network
